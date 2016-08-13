@@ -39,6 +39,7 @@ PODS:
   - FMDB/standard (2.6.2)
   - iCarousel (1.8.2)
   - JHChainableAnimations (1.3.0)
+  - LCUIKit (0.0.6)
   - Masonry (1.0.1)
   - MBProgressHUD (1.0.0)
   - MJExtension (3.0.13)
@@ -60,6 +61,7 @@ DEPENDENCIES:
   - FMDB
   - iCarousel
   - JHChainableAnimations
+  - LCUIKit
   - Masonry
   - MBProgressHUD
   - MJExtension
@@ -77,6 +79,7 @@ SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   iCarousel: 67c8a43da5a46795b56aadfc96cd36a16f6149b2
   JHChainableAnimations: 22085fcb04ca87349e584573558e637f659fd769
+  LCUIKit: b3b1156963c594223c4b3cce5ed964b1fb3d6afb
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
@@ -85,6 +88,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   YYKit: 843d1b26e20b82c695790c9a89907eaa1e99907f
 
-PODFILE CHECKSUM: 014a9e0e7a6b3ef3ac5b457c80ed5219a0aa258b
+PODFILE CHECKSUM: 7d5be490a56ad717843590647e083e220b2102f8
 
 COCOAPODS: 1.0.1

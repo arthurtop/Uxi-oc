@@ -10,7 +10,7 @@ pod 'AFNetworking'
 pod 'SDWebImage'
 pod 'Masonry'
 pod 'YYKit'
-pod ‘CocoaAsyncSocket’
+pod 'CocoaAsyncSocket’
 pod ‘BlocksKit’
 pod ‘Canvas’, ‘~>0.1.2’
 pod ‘iCarousel’
@@ -19,6 +19,6 @@ pod ‘SDWebImage’
 pod ‘FMDB’
 pod ‘JHChainableAnimations’
 pod ‘CYLTabBarController’
-
+pod 'LCUIKit'
 
 end
