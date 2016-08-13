@@ -15,6 +15,7 @@
 		CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8F61D5DD42C00A5BDEB /* BaseTabBarController.m */; };
 		CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */; };
 		CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */; };
+		CD8B92AE1D5F0C3B00DE6AA6 /* icon_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B92AD1D5F0C3B00DE6AA6 /* icon_facebook@2x.png */; };
 		CD9776D31D5D6F0600712D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776D21D5D6F0600712D2F /* main.m */; };
 		CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DA1D5D6F0600712D2F /* Main.storyboard */; };
 		CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DD1D5D6F0600712D2F /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CD25D8FC1D5DD5CD00A5BDEB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CD8B92AD1D5F0C3B00DE6AA6 /* icon_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_facebook@2x.png"; sourceTree = "<group>"; };
 		CD9776CE1D5D6F0500712D2F /* Uxi-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uxi-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9776D21D5D6F0600712D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD9776DB1D5D6F0600712D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -248,6 +250,8 @@
 		CD25D8E51D5DB03100A5BDEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CD8B92AB1D5F0C0600DE6AA6 /* MainClassImgs */,
+				CD8B92AC1D5F0C0600DE6AA6 /* otherClassImgs */,
 				CD25D8E61D5DB03100A5BDEB /* SupFiles */,
 			);
 			path = Resources;
@@ -296,6 +300,21 @@
 				CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */,
 			);
 			path = LogRegisterClass;
+			sourceTree = "<group>";
+		};
+		CD8B92AB1D5F0C0600DE6AA6 /* MainClassImgs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainClassImgs;
+			sourceTree = "<group>";
+		};
+		CD8B92AC1D5F0C0600DE6AA6 /* otherClassImgs */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B92AD1D5F0C3B00DE6AA6 /* icon_facebook@2x.png */,
+			);
+			path = otherClassImgs;
 			sourceTree = "<group>";
 		};
 		CD9776C51D5D6F0500712D2F = {
@@ -475,6 +494,7 @@
 				CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */,
 				CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */,
 				CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */,
+				CD8B92AE1D5F0C3B00DE6AA6 /* icon_facebook@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
