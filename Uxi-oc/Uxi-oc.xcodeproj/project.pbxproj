@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE7AA0151123D76998F5AC6C /* libPods-Uxi-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */; };
+		CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */; };
+		CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8D01D5DB03100A5BDEB /* ViewController.m */; };
+		CD25D8F11D5DD3EA00A5BDEB /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8F01D5DD3EA00A5BDEB /* BaseViewController.m */; };
+		CD25D8F41D5DD40C00A5BDEB /* BaseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8F31D5DD40C00A5BDEB /* BaseNavController.m */; };
+		CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8F61D5DD42C00A5BDEB /* BaseTabBarController.m */; };
+		CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */; };
+		CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */; };
+		CD9776D31D5D6F0600712D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776D21D5D6F0600712D2F /* main.m */; };
+		CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DA1D5D6F0600712D2F /* Main.storyboard */; };
+		CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DD1D5D6F0600712D2F /* Assets.xcassets */; };
+		CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DF1D5D6F0600712D2F /* LaunchScreen.storyboard */; };
+		CD9776EC1D5D6F0600712D2F /* Uxi_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776EB1D5D6F0600712D2F /* Uxi_ocTests.m */; };
+		CD9776F71D5D6F0600712D2F /* Uxi_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9776E81D5D6F0600712D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9776C61D5D6F0500712D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9776CD1D5D6F0500712D2F;
+			remoteInfo = "Uxi-oc";
+		};
+		CD9776F31D5D6F0600712D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9776C61D5D6F0500712D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9776CD1D5D6F0500712D2F;
+			remoteInfo = "Uxi-oc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uxi-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uxi-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc.debug.xcconfig"; sourceTree = "<group>"; };
+		CD25D8CD1D5DB03100A5BDEB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD25D8CF1D5DB03100A5BDEB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD25D8D01D5DB03100A5BDEB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD25D8EF1D5DD3EA00A5BDEB /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CD25D8F01D5DD3EA00A5BDEB /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CD25D8F21D5DD40C00A5BDEB /* BaseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavController.h; sourceTree = "<group>"; };
+		CD25D8F31D5DD40C00A5BDEB /* BaseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavController.m; sourceTree = "<group>"; };
+		CD25D8F51D5DD42C00A5BDEB /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		CD25D8F61D5DD42C00A5BDEB /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		CD25D8F91D5DD5B800A5BDEB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CD25D8FC1D5DD5CD00A5BDEB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CD9776CE1D5D6F0500712D2F /* Uxi-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uxi-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9776D21D5D6F0600712D2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD9776DB1D5D6F0600712D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9776DD1D5D6F0600712D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9776E01D5D6F0600712D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9776E21D5D6F0600712D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9776E71D5D6F0600712D2F /* Uxi-ocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uxi-ocTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9776EB1D5D6F0600712D2F /* Uxi_ocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uxi_ocTests.m; sourceTree = "<group>"; };
+		CD9776ED1D5D6F0600712D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9776F21D5D6F0600712D2F /* Uxi-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uxi-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uxi_ocUITests.m; sourceTree = "<group>"; };
+		CD9776F81D5D6F0600712D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uxi-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9776CB1D5D6F0500712D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7AA0151123D76998F5AC6C /* libPods-Uxi-oc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9776E41D5D6F0600712D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9776EF1D5D6F0600712D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0433C631E6D950DAE49244A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */,
+				F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C53871F856ABA32563294D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD25D8CB1D5DB03100A5BDEB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8CC1D5DB03100A5BDEB /* AppDelegate */,
+				CD25D8D11D5DB03100A5BDEB /* Handler(业务逻辑) */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CD25D8CC1D5DB03100A5BDEB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8CD1D5DB03100A5BDEB /* AppDelegate.h */,
+				CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */,
+				CD25D8CF1D5DB03100A5BDEB /* ViewController.h */,
+				CD25D8D01D5DB03100A5BDEB /* ViewController.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD25D8D11D5DB03100A5BDEB /* Handler(业务逻辑) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Handler(业务逻辑)";
+			sourceTree = "<group>";
+		};
+		CD25D8D81D5DB03100A5BDEB /* BaseClass(基础框架) */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8F81D5DD58E00A5BDEB /* LogRegisterClass */,
+				CD25D8EE1D5DB60000A5BDEB /* BaseViewController */,
+				CD25D8EC1D5DB60000A5BDEB /* BaseNavgationContoller */,
+				CD25D8ED1D5DB60000A5BDEB /* BaseTabBarController */,
+			);
+			path = "BaseClass(基础框架)";
+			sourceTree = "<group>";
+		};
+		CD25D8D91D5DB03100A5BDEB /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8DA1D5DB03100A5BDEB /* ModelClass */,
+				CD25D8DB1D5DB03100A5BDEB /* ViewClass */,
+				CD25D8DC1D5DB03100A5BDEB /* ViewControllClass */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CD25D8DA1D5DB03100A5BDEB /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		CD25D8DB1D5DB03100A5BDEB /* ViewClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewClass;
+			sourceTree = "<group>";
+		};
+		CD25D8DC1D5DB03100A5BDEB /* ViewControllClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllClass;
+			sourceTree = "<group>";
+		};
+		CD25D8DD1D5DB03100A5BDEB /* Custom(自定义、扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8DE1D5DB03100A5BDEB /* Category(扩展) */,
+				CD25D8DF1D5DB03100A5BDEB /* Config(配置文件) */,
+				CD25D8E01D5DB03100A5BDEB /* Util(工具类) */,
+			);
+			path = "Custom(自定义、扩展)";
+			sourceTree = "<group>";
+		};
+		CD25D8DE1D5DB03100A5BDEB /* Category(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category(扩展)";
+			sourceTree = "<group>";
+		};
+		CD25D8DF1D5DB03100A5BDEB /* Config(配置文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Config(配置文件)";
+			sourceTree = "<group>";
+		};
+		CD25D8E01D5DB03100A5BDEB /* Util(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Util(工具类)";
+			sourceTree = "<group>";
+		};
+		CD25D8E11D5DB03100A5BDEB /* Document(文档) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Document(文档)";
+			sourceTree = "<group>";
+		};
+		CD25D8E21D5DB03100A5BDEB /* External(代码封装) */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8E31D5DB03100A5BDEB /* SooLeTool */,
+				CD25D8E41D5DB03100A5BDEB /* SooNetwork */,
+			);
+			path = "External(代码封装)";
+			sourceTree = "<group>";
+		};
+		CD25D8E31D5DB03100A5BDEB /* SooLeTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SooLeTool;
+			sourceTree = "<group>";
+		};
+		CD25D8E41D5DB03100A5BDEB /* SooNetwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SooNetwork;
+			sourceTree = "<group>";
+		};
+		CD25D8E51D5DB03100A5BDEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8E61D5DB03100A5BDEB /* SupFiles */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD25D8E61D5DB03100A5BDEB /* SupFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupFiles;
+			sourceTree = "<group>";
+		};
+		CD25D8EC1D5DB60000A5BDEB /* BaseNavgationContoller */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8F21D5DD40C00A5BDEB /* BaseNavController.h */,
+				CD25D8F31D5DD40C00A5BDEB /* BaseNavController.m */,
+			);
+			path = BaseNavgationContoller;
+			sourceTree = "<group>";
+		};
+		CD25D8ED1D5DB60000A5BDEB /* BaseTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8F51D5DD42C00A5BDEB /* BaseTabBarController.h */,
+				CD25D8F61D5DD42C00A5BDEB /* BaseTabBarController.m */,
+			);
+			path = BaseTabBarController;
+			sourceTree = "<group>";
+		};
+		CD25D8EE1D5DB60000A5BDEB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8EF1D5DD3EA00A5BDEB /* BaseViewController.h */,
+				CD25D8F01D5DD3EA00A5BDEB /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		CD25D8F81D5DD58E00A5BDEB /* LogRegisterClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8F91D5DD5B800A5BDEB /* LoginViewController.h */,
+				CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */,
+				CD25D8FC1D5DD5CD00A5BDEB /* RegisterViewController.h */,
+				CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */,
+			);
+			path = LogRegisterClass;
+			sourceTree = "<group>";
+		};
+		CD9776C51D5D6F0500712D2F = {
+			isa = PBXGroup;
+			children = (
+				CD9776D01D5D6F0600712D2F /* Uxi-oc */,
+				CD9776EA1D5D6F0600712D2F /* Uxi-ocTests */,
+				CD9776F51D5D6F0600712D2F /* Uxi-ocUITests */,
+				CD9776CF1D5D6F0500712D2F /* Products */,
+				0433C631E6D950DAE49244A1 /* Pods */,
+				7C53871F856ABA32563294D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9776CF1D5D6F0500712D2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9776CE1D5D6F0500712D2F /* Uxi-oc.app */,
+				CD9776E71D5D6F0600712D2F /* Uxi-ocTests.xctest */,
+				CD9776F21D5D6F0600712D2F /* Uxi-ocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9776D01D5D6F0600712D2F /* Uxi-oc */ = {
+			isa = PBXGroup;
+			children = (
+				CD25D8CB1D5DB03100A5BDEB /* Application */,
+				CD25D8E11D5DB03100A5BDEB /* Document(文档) */,
+				CD25D8DD1D5DB03100A5BDEB /* Custom(自定义、扩展) */,
+				CD25D8E21D5DB03100A5BDEB /* External(代码封装) */,
+				CD25D8D81D5DB03100A5BDEB /* BaseClass(基础框架) */,
+				CD25D8D91D5DB03100A5BDEB /* Class */,
+				CD25D8E51D5DB03100A5BDEB /* Resources */,
+				CD9776DA1D5D6F0600712D2F /* Main.storyboard */,
+				CD9776DD1D5D6F0600712D2F /* Assets.xcassets */,
+				CD9776DF1D5D6F0600712D2F /* LaunchScreen.storyboard */,
+				CD9776E21D5D6F0600712D2F /* Info.plist */,
+				CD9776D11D5D6F0600712D2F /* Supporting Files */,
+			);
+			path = "Uxi-oc";
+			sourceTree = "<group>";
+		};
+		CD9776D11D5D6F0600712D2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9776D21D5D6F0600712D2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9776EA1D5D6F0600712D2F /* Uxi-ocTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9776EB1D5D6F0600712D2F /* Uxi_ocTests.m */,
+				CD9776ED1D5D6F0600712D2F /* Info.plist */,
+			);
+			path = "Uxi-ocTests";
+			sourceTree = "<group>";
+		};
+		CD9776F51D5D6F0600712D2F /* Uxi-ocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */,
+				CD9776F81D5D6F0600712D2F /* Info.plist */,
+			);
+			path = "Uxi-ocUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9776CD1D5D6F0500712D2F /* Uxi-oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9776FB1D5D6F0600712D2F /* Build configuration list for PBXNativeTarget "Uxi-oc" */;
+			buildPhases = (
+				873718FE67BB634E5D113283 /* [CP] Check Pods Manifest.lock */,
+				CD9776CA1D5D6F0500712D2F /* Sources */,
+				CD9776CB1D5D6F0500712D2F /* Frameworks */,
+				CD9776CC1D5D6F0500712D2F /* Resources */,
+				9BD8C840DB9D4389622468D6 /* [CP] Embed Pods Frameworks */,
+				86052EB7D2F2E062DA27820E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uxi-oc";
+			productName = "Uxi-oc";
+			productReference = CD9776CE1D5D6F0500712D2F /* Uxi-oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9776E61D5D6F0600712D2F /* Uxi-ocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9776FE1D5D6F0600712D2F /* Build configuration list for PBXNativeTarget "Uxi-ocTests" */;
+			buildPhases = (
+				CD9776E31D5D6F0600712D2F /* Sources */,
+				CD9776E41D5D6F0600712D2F /* Frameworks */,
+				CD9776E51D5D6F0600712D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9776E91D5D6F0600712D2F /* PBXTargetDependency */,
+			);
+			name = "Uxi-ocTests";
+			productName = "Uxi-ocTests";
+			productReference = CD9776E71D5D6F0600712D2F /* Uxi-ocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9776F11D5D6F0600712D2F /* Uxi-ocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9777011D5D6F0600712D2F /* Build configuration list for PBXNativeTarget "Uxi-ocUITests" */;
+			buildPhases = (
+				CD9776EE1D5D6F0600712D2F /* Sources */,
+				CD9776EF1D5D6F0600712D2F /* Frameworks */,
+				CD9776F01D5D6F0600712D2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9776F41D5D6F0600712D2F /* PBXTargetDependency */,
+			);
+			name = "Uxi-ocUITests";
+			productName = "Uxi-ocUITests";
+			productReference = CD9776F21D5D6F0600712D2F /* Uxi-ocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9776C61D5D6F0500712D2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zyhl;
+				TargetAttributes = {
+					CD9776CD1D5D6F0500712D2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UDU2Q37R58;
+					};
+					CD9776E61D5D6F0600712D2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD9776CD1D5D6F0500712D2F;
+					};
+					CD9776F11D5D6F0600712D2F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CD9776CD1D5D6F0500712D2F;
+					};
+				};
+			};
+			buildConfigurationList = CD9776C91D5D6F0500712D2F /* Build configuration list for PBXProject "Uxi-oc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9776C51D5D6F0500712D2F;
+			productRefGroup = CD9776CF1D5D6F0500712D2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9776CD1D5D6F0500712D2F /* Uxi-oc */,
+				CD9776E61D5D6F0600712D2F /* Uxi-ocTests */,
+				CD9776F11D5D6F0600712D2F /* Uxi-ocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9776CC1D5D6F0500712D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */,
+				CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */,
+				CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9776E51D5D6F0600712D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9776F01D5D6F0600712D2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86052EB7D2F2E062DA27820E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		873718FE67BB634E5D113283 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD8C840DB9D4389622468D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9776CA1D5D6F0500712D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */,
+				CD25D8F41D5DD40C00A5BDEB /* BaseNavController.m in Sources */,
+				CD25D8F11D5DD3EA00A5BDEB /* BaseViewController.m in Sources */,
+				CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */,
+				CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */,
+				CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */,
+				CD9776D31D5D6F0600712D2F /* main.m in Sources */,
+				CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9776E31D5D6F0600712D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9776EC1D5D6F0600712D2F /* Uxi_ocTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9776EE1D5D6F0600712D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9776F71D5D6F0600712D2F /* Uxi_ocUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9776E91D5D6F0600712D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9776CD1D5D6F0500712D2F /* Uxi-oc */;
+			targetProxy = CD9776E81D5D6F0600712D2F /* PBXContainerItemProxy */;
+		};
+		CD9776F41D5D6F0600712D2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9776CD1D5D6F0500712D2F /* Uxi-oc */;
+			targetProxy = CD9776F31D5D6F0600712D2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD9776DA1D5D6F0600712D2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9776DB1D5D6F0600712D2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9776DF1D5D6F0600712D2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9776E01D5D6F0600712D2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9776F91D5D6F0600712D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD9776FA1D5D6F0600712D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9776FC1D5D6F0600712D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Uxi-oc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecansoft.Uxi-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD9776FD1D5D6F0600712D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Uxi-oc/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecansoft.Uxi-oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD9776FF1D5D6F0600712D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Uxi-ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecansoft.Uxi-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uxi-oc.app/Uxi-oc";
+			};
+			name = Debug;
+		};
+		CD9777001D5D6F0600712D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Uxi-ocTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecansoft.Uxi-ocTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uxi-oc.app/Uxi-oc";
+			};
+			name = Release;
+		};
+		CD9777021D5D6F0600712D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Uxi-ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecansoft.Uxi-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Uxi-oc";
+			};
+			name = Debug;
+		};
+		CD9777031D5D6F0600712D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Uxi-ocUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jecansoft.Uxi-ocUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Uxi-oc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9776C91D5D6F0500712D2F /* Build configuration list for PBXProject "Uxi-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9776F91D5D6F0600712D2F /* Debug */,
+				CD9776FA1D5D6F0600712D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9776FB1D5D6F0600712D2F /* Build configuration list for PBXNativeTarget "Uxi-oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9776FC1D5D6F0600712D2F /* Debug */,
+				CD9776FD1D5D6F0600712D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9776FE1D5D6F0600712D2F /* Build configuration list for PBXNativeTarget "Uxi-ocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9776FF1D5D6F0600712D2F /* Debug */,
+				CD9777001D5D6F0600712D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9777011D5D6F0600712D2F /* Build configuration list for PBXNativeTarget "Uxi-ocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9777021D5D6F0600712D2F /* Debug */,
+				CD9777031D5D6F0600712D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9776C61D5D6F0500712D2F /* Project object */;
+}

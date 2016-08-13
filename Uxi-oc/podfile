@@ -1,0 +1,24 @@
+platform:ios, ‘9.0’
+#use_frameworks!
+#source 'http://git.oschina.net/akuandev/Specs.git'
+
+target 'Uxi-oc’ do
+pod 'MJExtension'
+pod 'MJRefresh'
+pod 'SVProgressHUD'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'Masonry'
+pod 'YYKit'
+pod ‘CocoaAsyncSocket’
+pod ‘BlocksKit’
+pod ‘Canvas’, ‘~>0.1.2’
+pod ‘iCarousel’
+pod ‘MBProgressHUD’
+pod ‘SDWebImage’
+pod ‘FMDB’
+pod ‘JHChainableAnimations’
+pod ‘CYLTabBarController’
+
+
+end
