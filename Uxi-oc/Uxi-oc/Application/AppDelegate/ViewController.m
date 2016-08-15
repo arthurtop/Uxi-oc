@@ -30,7 +30,8 @@
         make.left.bottom.offset(0);
         make.right.bottom.offset(0);
         make.top.bottom.offset(10);
-        //make.
+        make.topMargin.bottom.offset(0);
+        
     }];
     
     
@@ -38,6 +39,48 @@
     [btn lc_titleImageVerticalAlignmentWithSpace:10];
     //[btn lc_imageTitleVerticalAlignmentWithSpace:10];
     //[btn lc_imageTitleHorizontalAlignmentWithSpace:10];
+    
+    
+    UIImageView *imgView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@""] highlightedImage:[UIImage imageNamed:@""]];
+    
+    imgView.layer.cornerRadius = 10;
+    imgView.layer.borderWidth = 1;
+    imgView.layer.borderColor = [UIColor greenColor].CGColor;
+    [self.view addSubview:imgView];
+    
+    [imgView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.bottom.offset(0);
+        make.right.bottom.offset(0);
+    }];
+    
+    
+    
+    
+    UIView *view = [UIView new];
+    [self.view addSubview:view];
+    view.backgroundColor = [UIColor colorWithRed:190.0f/255 green:31.0f/255 blue:44.0f/255 alpha:1.0f];
+    
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        make.edges.equalTo(view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
+        
+        /**
+         *  等价于
+         make.top.equalTo(view).with.offset(10);
+         make.left.equalTo(view).with.offset(10);
+         make.bottom.equalTo(view).with.offset(-10);
+         make.right.equalTo(view).with.offset(-10);
+         */
+        
+        /**
+         *  也等价于
+         make.top.left.bottom.and.right.equalTo(view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
+         */
+        
+        
+        
+        
+    }];
     
     
     
