@@ -35,10 +35,27 @@
     }];
     
     
-    [btn lc_titleImageHorizontalAlignmentWithSpace:10];
-    [btn lc_titleImageVerticalAlignmentWithSpace:10];
-    //[btn lc_imageTitleVerticalAlignmentWithSpace:10];
-    //[btn lc_imageTitleHorizontalAlignmentWithSpace:10];
+    /**
+     *  自在前 图在后  横向
+     */
+    [btn lc_titleImageHorizontalAlignmentWithSpace:0];
+    
+    /**
+     *  字在上 图在下 横向
+     */
+    [btn lc_titleImageVerticalAlignmentWithSpace:0];
+    
+    /**
+     *  图在下 字在上 纵向(竖着)
+     */
+    [btn lc_imageTitleHorizontalAlignmentWithSpace:0];
+    
+    /**
+     *  图在上 字在下 纵向(竖着)
+     */
+    [btn lc_imageTitleVerticalAlignmentWithSpace:0];
+    
+    
     
     
     UIImageView *imgView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@""] highlightedImage:[UIImage imageNamed:@""]];
