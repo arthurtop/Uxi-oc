@@ -75,7 +75,7 @@
     
     UIView *view = [UIView new];
     [self.view addSubview:view];
-    view.backgroundColor = [UIColor colorWithRed:190.0f/255 green:31.0f/255 blue:44.0f/255 alpha:1.0f];
+    view.backgroundColor = [UIColor lc_colorWithHexValue:90 alpha:1];
     
     [view mas_makeConstraints:^(MASConstraintMaker *make) {
         
@@ -93,11 +93,13 @@
          *  也等价于
          make.top.left.bottom.and.right.equalTo(view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
          */
-        
-        
-        
-        
     }];
+    
+    
+    
+    
+    
+    
     
     
     
