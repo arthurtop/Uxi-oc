@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EB0F8DB1D636C81005B4060 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */; };
+		5EB0F8DD1D636C9B005B4060 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */; };
+		5EB0F8DF1D636D59005B4060 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DE1D636D59005B4060 /* ViewController.xib */; };
 		AE7AA0151123D76998F5AC6C /* libPods-Uxi-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */; };
 		CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */; };
 		CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8D01D5DB03100A5BDEB /* ViewController.m */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		5EB0F8DE1D636D59005B4060 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uxi-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uxi-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc.debug.xcconfig"; sourceTree = "<group>"; };
 		CD25D8CD1D5DB03100A5BDEB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +141,7 @@
 				CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */,
 				CD25D8CF1D5DB03100A5BDEB /* ViewController.h */,
 				CD25D8D01D5DB03100A5BDEB /* ViewController.m */,
+				5EB0F8DE1D636D59005B4060 /* ViewController.xib */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -298,8 +305,10 @@
 			children = (
 				CD25D8F91D5DD5B800A5BDEB /* LoginViewController.h */,
 				CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */,
+				5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */,
 				CD25D8FC1D5DD5CD00A5BDEB /* RegisterViewController.h */,
 				CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */,
+				5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */,
 			);
 			path = LogRegisterClass;
 			sourceTree = "<group>";
@@ -493,10 +502,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB0F8DF1D636D59005B4060 /* ViewController.xib in Resources */,
+				5EB0F8DB1D636C81005B4060 /* LoginViewController.xib in Resources */,
 				CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */,
 				CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */,
 				CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */,
 				CD8B92AE1D5F0C3B00DE6AA6 /* icon_facebook@2x.png in Resources */,
+				5EB0F8DD1D636C9B005B4060 /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
