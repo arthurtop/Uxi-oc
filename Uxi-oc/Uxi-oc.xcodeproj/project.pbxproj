@@ -19,6 +19,10 @@
 		CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8F61D5DD42C00A5BDEB /* BaseTabBarController.m */; };
 		CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */; };
 		CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */; };
+		CD5F941B1D655A1C007BEC86 /* XLZVerificationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */; };
+		CD5F941C1D655A1C007BEC86 /* XLZ_RatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94161D655A1C007BEC86 /* XLZ_RatingBar.m */; };
+		CD5F941D1D655A1C007BEC86 /* XLZAVCapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94191D655A1C007BEC86 /* XLZAVCapController.m */; };
+		CD5F941E1D655A1C007BEC86 /* XLZAVCapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5F941A1D655A1C007BEC86 /* XLZAVCapController.xib */; };
 		CD8B92AE1D5F0C3B00DE6AA6 /* icon_facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8B92AD1D5F0C3B00DE6AA6 /* icon_facebook@2x.png */; };
 		CD9776D31D5D6F0600712D2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776D21D5D6F0600712D2F /* main.m */; };
 		CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DA1D5D6F0600712D2F /* Main.storyboard */; };
@@ -26,6 +30,7 @@
 		CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DF1D5D6F0600712D2F /* LaunchScreen.storyboard */; };
 		CD9776EC1D5D6F0600712D2F /* Uxi_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776EB1D5D6F0600712D2F /* Uxi_ocTests.m */; };
 		CD9776F71D5D6F0600712D2F /* Uxi_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */; };
+		CDF79EF61D65B582003E8EAF /* NetworkHttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF79EF51D65B582003E8EAF /* NetworkHttpTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,13 @@
 		CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CD25D8FC1D5DD5CD00A5BDEB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CD5F94101D655A1C007BEC86 /* XLZVerificationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZVerificationClass.h; sourceTree = "<group>"; };
+		CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZVerificationClass.m; sourceTree = "<group>"; };
+		CD5F94151D655A1C007BEC86 /* XLZ_RatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZ_RatingBar.h; sourceTree = "<group>"; };
+		CD5F94161D655A1C007BEC86 /* XLZ_RatingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZ_RatingBar.m; sourceTree = "<group>"; };
+		CD5F94181D655A1C007BEC86 /* XLZAVCapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZAVCapController.h; sourceTree = "<group>"; };
+		CD5F94191D655A1C007BEC86 /* XLZAVCapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZAVCapController.m; sourceTree = "<group>"; };
+		CD5F941A1D655A1C007BEC86 /* XLZAVCapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLZAVCapController.xib; sourceTree = "<group>"; };
 		CD8B92AD1D5F0C3B00DE6AA6 /* icon_facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_facebook@2x.png"; sourceTree = "<group>"; };
 		CD8B92AF1D5F11E600DE6AA6 /* Uxi_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Uxi_Prefix.pch; sourceTree = "<group>"; };
 		CD9776CE1D5D6F0500712D2F /* Uxi-oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uxi-oc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +93,8 @@
 		CD9776F21D5D6F0600712D2F /* Uxi-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uxi-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uxi_ocUITests.m; sourceTree = "<group>"; };
 		CD9776F81D5D6F0600712D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF79EF41D65B582003E8EAF /* NetworkHttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHttpTools.h; sourceTree = "<group>"; };
+		CDF79EF51D65B582003E8EAF /* NetworkHttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHttpTools.m; sourceTree = "<group>"; };
 		F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uxi-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -310,6 +324,60 @@
 			path = LogRegisterClass;
 			sourceTree = "<group>";
 		};
+		CD5F940E1D655A1C007BEC86 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F940F1D655A1C007BEC86 /* Util(工具类) */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		CD5F940F1D655A1C007BEC86 /* Util(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F94101D655A1C007BEC86 /* XLZVerificationClass.h */,
+				CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */,
+			);
+			path = "Util(工具类)";
+			sourceTree = "<group>";
+		};
+		CD5F94121D655A1C007BEC86 /* ExternalClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F94131D655A1C007BEC86 /* SooLeTool */,
+			);
+			path = ExternalClass;
+			sourceTree = "<group>";
+		};
+		CD5F94131D655A1C007BEC86 /* SooLeTool */ = {
+			isa = PBXGroup;
+			children = (
+				CDF79EF31D65B582003E8EAF /* XLZNetworkManager */,
+				CD5F94141D655A1C007BEC86 /* ScoreStarsClass */,
+				CD5F94171D655A1C007BEC86 /* XLZAVCaptureClass */,
+			);
+			path = SooLeTool;
+			sourceTree = "<group>";
+		};
+		CD5F94141D655A1C007BEC86 /* ScoreStarsClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F94151D655A1C007BEC86 /* XLZ_RatingBar.h */,
+				CD5F94161D655A1C007BEC86 /* XLZ_RatingBar.m */,
+			);
+			path = ScoreStarsClass;
+			sourceTree = "<group>";
+		};
+		CD5F94171D655A1C007BEC86 /* XLZAVCaptureClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD5F94181D655A1C007BEC86 /* XLZAVCapController.h */,
+				CD5F94191D655A1C007BEC86 /* XLZAVCapController.m */,
+				CD5F941A1D655A1C007BEC86 /* XLZAVCapController.xib */,
+			);
+			path = XLZAVCaptureClass;
+			sourceTree = "<group>";
+		};
 		CD8B92AB1D5F0C0600DE6AA6 /* MainClassImgs */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +420,8 @@
 			children = (
 				CD25D8CB1D5DB03100A5BDEB /* Application */,
 				CD25D8E11D5DB03100A5BDEB /* Document(文档) */,
+				CD5F940E1D655A1C007BEC86 /* CustomClass */,
+				CD5F94121D655A1C007BEC86 /* ExternalClass */,
 				CD25D8DD1D5DB03100A5BDEB /* Custom(自定义、扩展) */,
 				5E7B1D811D64A91B00479BFC /* External(代码封装) */,
 				CD25D8D81D5DB03100A5BDEB /* BaseClass(基础框架) */,
@@ -390,6 +460,15 @@
 				CD9776F81D5D6F0600712D2F /* Info.plist */,
 			);
 			path = "Uxi-ocUITests";
+			sourceTree = "<group>";
+		};
+		CDF79EF31D65B582003E8EAF /* XLZNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CDF79EF41D65B582003E8EAF /* NetworkHttpTools.h */,
+				CDF79EF51D65B582003E8EAF /* NetworkHttpTools.m */,
+			);
+			path = XLZNetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +582,7 @@
 				5EB0F8DB1D636C81005B4060 /* LoginViewController.xib in Resources */,
 				CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */,
 				CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */,
+				CD5F941E1D655A1C007BEC86 /* XLZAVCapController.xib in Resources */,
 				CD9776DC1D5D6F0600712D2F /* Main.storyboard in Resources */,
 				CD8B92AE1D5F0C3B00DE6AA6 /* icon_facebook@2x.png in Resources */,
 				5EB0F8DD1D636C9B005B4060 /* RegisterViewController.xib in Resources */,
@@ -578,12 +658,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD5F941B1D655A1C007BEC86 /* XLZVerificationClass.m in Sources */,
 				CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */,
 				CD25D8F41D5DD40C00A5BDEB /* BaseNavController.m in Sources */,
 				CD25D8F11D5DD3EA00A5BDEB /* BaseViewController.m in Sources */,
+				CDF79EF61D65B582003E8EAF /* NetworkHttpTools.m in Sources */,
 				CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */,
 				CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */,
 				CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */,
+				CD5F941C1D655A1C007BEC86 /* XLZ_RatingBar.m in Sources */,
+				CD5F941D1D655A1C007BEC86 /* XLZAVCapController.m in Sources */,
 				CD9776D31D5D6F0600712D2F /* main.m in Sources */,
 				5E7B1D851D64A91B00479BFC /* NetworkHttpTools.m in Sources */,
 				CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */,
@@ -731,7 +815,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = "/Users/songlei/Desktop/SooLe项目/Uxi-oc/Uxi-oc/Application/Uxi_Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/jecansoft/Desktop/Uxi-oc/Uxi-oc/Uxi-oc/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -746,7 +830,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = "/Users/songlei/Desktop/SooLe项目/Uxi-oc/Uxi-oc/Application/Uxi_Prefix.pch";
+				GCC_PREFIX_HEADER = "/Users/jecansoft/Desktop/Uxi-oc/Uxi-oc/Uxi-oc/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
