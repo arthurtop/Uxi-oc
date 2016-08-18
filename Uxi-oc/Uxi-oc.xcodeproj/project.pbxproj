@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E7B1D851D64A91B00479BFC /* NetworkHttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E7B1D841D64A91B00479BFC /* NetworkHttpTools.m */; };
 		5EB0F8DB1D636C81005B4060 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */; };
 		5EB0F8DD1D636C9B005B4060 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */; };
 		5EB0F8DF1D636D59005B4060 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DE1D636D59005B4060 /* ViewController.xib */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E7B1D831D64A91B00479BFC /* NetworkHttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHttpTools.h; sourceTree = "<group>"; };
+		5E7B1D841D64A91B00479BFC /* NetworkHttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHttpTools.m; sourceTree = "<group>"; };
 		5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 		5EB0F8DE1D636D59005B4060 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -114,6 +117,23 @@
 				F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E7B1D811D64A91B00479BFC /* External(代码封装) */ = {
+			isa = PBXGroup;
+			children = (
+				5E7B1D821D64A91B00479BFC /* NetworkManager */,
+			);
+			path = "External(代码封装)";
+			sourceTree = "<group>";
+		};
+		5E7B1D821D64A91B00479BFC /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				5E7B1D831D64A91B00479BFC /* NetworkHttpTools.h */,
+				5E7B1D841D64A91B00479BFC /* NetworkHttpTools.m */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 		7C53871F856ABA32563294D2 /* Frameworks */ = {
@@ -233,29 +253,6 @@
 			path = "Document(文档)";
 			sourceTree = "<group>";
 		};
-		CD25D8E21D5DB03100A5BDEB /* External(代码封装) */ = {
-			isa = PBXGroup;
-			children = (
-				CD25D8E31D5DB03100A5BDEB /* SooLeTool */,
-				CD25D8E41D5DB03100A5BDEB /* SooNetwork */,
-			);
-			path = "External(代码封装)";
-			sourceTree = "<group>";
-		};
-		CD25D8E31D5DB03100A5BDEB /* SooLeTool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SooLeTool;
-			sourceTree = "<group>";
-		};
-		CD25D8E41D5DB03100A5BDEB /* SooNetwork */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SooNetwork;
-			sourceTree = "<group>";
-		};
 		CD25D8E51D5DB03100A5BDEB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,7 +353,7 @@
 				CD25D8CB1D5DB03100A5BDEB /* Application */,
 				CD25D8E11D5DB03100A5BDEB /* Document(文档) */,
 				CD25D8DD1D5DB03100A5BDEB /* Custom(自定义、扩展) */,
-				CD25D8E21D5DB03100A5BDEB /* External(代码封装) */,
+				5E7B1D811D64A91B00479BFC /* External(代码封装) */,
 				CD25D8D81D5DB03100A5BDEB /* BaseClass(基础框架) */,
 				CD25D8D91D5DB03100A5BDEB /* Class */,
 				CD25D8E51D5DB03100A5BDEB /* Resources */,
@@ -588,6 +585,7 @@
 				CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */,
 				CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */,
 				CD9776D31D5D6F0600712D2F /* main.m in Sources */,
+				5E7B1D851D64A91B00479BFC /* NetworkHttpTools.m in Sources */,
 				CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
