@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-
-typedef void(^XLZScoreStarImages)(NSString *unSelect, NSString *halfSelect, NSString *fullSelect);
+typedef void(^ XLZRatingChangedBlock)(float newRating);
 
 @protocol RetingBarDelegate <NSObject>
 
 - (void)ratingChanged:(float)newRating;
+
 
 @end
 
@@ -32,23 +32,19 @@ typedef void(^XLZScoreStarImages)(NSString *unSelect, NSString *halfSelect, NSSt
 
 /**
  *  初始化设置未选中图片、半选中图片、全选中图片，以及评分值改变的代理（可以用Block）实现
- *
- *  @param deselectName     未选中图名称
- *  @param halfSelectedName 半选中图名称
- *  @param fullSelectedName 全选图名称
+ *  @param arrImgs  未选 半选 全选 图
  *  @param delegate         代理
  */
-- (void)xlz_setImageDeselected:(NSString *)deselectName halfSelected:(NSString *)halfSelectedName fullSelected:(NSString *)fullSelectedName andDelegate:(id<RetingBarDelegate>)delegate;
+- (void)xlz_setImagesArray:(NSArray *)arrImgs andDelegate:(id<RetingBarDelegate>)delegate;
 
 /**
  *  block 实现
  */
-- (void)xlz_setScoreStarSelectImages:(XLZScoreStarImages)starImages delegate:(id<RetingBarDelegate>)delegate;
+- (void)xlz_setImagesArray:(NSArray *)arrImgs ratingBlcok:(XLZRatingChangedBlock )changedBlock;
 
 
 /**
  *  设置评分
- *
  *  @param rating 评分值
  */
 - (void)displayRating:(float)rating;

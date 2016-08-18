@@ -34,13 +34,13 @@
 @implementation XLZ_RatingBar
 
 
-- (void)xlz_setImageDeselected:(NSString *)deselectName halfSelected:(NSString *)halfSelectedName fullSelected:(NSString *)fullSelectedName andDelegate:(id<RetingBarDelegate>)delegate{
+- (void)xlz_setImagesArray:(NSArray *)arrImgs andDelegate:(id<RetingBarDelegate>)delegate{
     
     self.delegate = delegate;
     
-    unSelectImg = [UIImage imageNamed:deselectName];
-    halfSelectImg = halfSelectedName == nil ?unSelectImg:[UIImage imageNamed:halfSelectedName];
-    fullSelectImg = [UIImage imageNamed:fullSelectedName];
+    unSelectImg = [UIImage imageNamed:arrImgs[0]];
+    halfSelectImg = arrImgs[0] == nil ?unSelectImg:[UIImage imageNamed:arrImgs[1]];
+    fullSelectImg = [UIImage imageNamed:arrImgs[2]];
     
     height = 0.0;
     width = 0.0;
@@ -49,13 +49,42 @@
     
 }
 
-
-- (void)xlz_setScoreStarSelectImages:(XLZScoreStarImages)starImages delegate:(id<RetingBarDelegate>)delegate{
+- (void)xlz_setImagesArray:(NSArray *)arrImgs ratingBlcok:(XLZRatingChangedBlock)changedBlock{
+    
     
     
     
     
 }
+
+- (void)displayRating:(float)rating{
+    
+    
+}
+
+- (float)rating{
+    
+    return 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -68,4 +97,13 @@
 }
 */
 
+
+
+
+
 @end
+
+
+
+
+

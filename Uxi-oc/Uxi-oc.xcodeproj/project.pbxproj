@@ -29,6 +29,7 @@
 		CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9776DF1D5D6F0600712D2F /* LaunchScreen.storyboard */; };
 		CD9776EC1D5D6F0600712D2F /* Uxi_ocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776EB1D5D6F0600712D2F /* Uxi_ocTests.m */; };
 		CD9776F71D5D6F0600712D2F /* Uxi_ocUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */; };
+		CDF79EF61D65B582003E8EAF /* NetworkHttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF79EF51D65B582003E8EAF /* NetworkHttpTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		CD9776F21D5D6F0600712D2F /* Uxi-ocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uxi-ocUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9776F61D5D6F0600712D2F /* Uxi_ocUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Uxi_ocUITests.m; sourceTree = "<group>"; };
 		CD9776F81D5D6F0600712D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF79EF41D65B582003E8EAF /* NetworkHttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHttpTools.h; sourceTree = "<group>"; };
+		CDF79EF51D65B582003E8EAF /* NetworkHttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHttpTools.m; sourceTree = "<group>"; };
 		F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uxi-oc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -352,6 +355,7 @@
 		CD5F94131D655A1C007BEC86 /* SooLeTool */ = {
 			isa = PBXGroup;
 			children = (
+				CDF79EF31D65B582003E8EAF /* XLZNetworkManager */,
 				CD5F94141D655A1C007BEC86 /* ScoreStarsClass */,
 				CD5F94171D655A1C007BEC86 /* XLZAVCaptureClass */,
 			);
@@ -459,6 +463,15 @@
 				CD9776F81D5D6F0600712D2F /* Info.plist */,
 			);
 			path = "Uxi-ocUITests";
+			sourceTree = "<group>";
+		};
+		CDF79EF31D65B582003E8EAF /* XLZNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CDF79EF41D65B582003E8EAF /* NetworkHttpTools.h */,
+				CDF79EF51D65B582003E8EAF /* NetworkHttpTools.m */,
+			);
+			path = XLZNetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -652,6 +665,7 @@
 				CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */,
 				CD25D8F41D5DD40C00A5BDEB /* BaseNavController.m in Sources */,
 				CD25D8F11D5DD3EA00A5BDEB /* BaseViewController.m in Sources */,
+				CDF79EF61D65B582003E8EAF /* NetworkHttpTools.m in Sources */,
 				CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */,
 				CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */,
 				CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */,
