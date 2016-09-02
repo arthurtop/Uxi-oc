@@ -801,7 +801,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = "/Users/jecansoft/Desktop/Uxi-oc/Uxi-oc/Uxi-oc/Uxi-oc/Application/Uxi_Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -816,7 +816,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREFIX_HEADER = "/Users/jecansoft/Desktop/Uxi-oc/Uxi-oc/Uxi-oc/Uxi-oc/Application/Uxi_Prefix.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
