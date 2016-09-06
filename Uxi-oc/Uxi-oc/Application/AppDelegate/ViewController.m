@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ScanCodeViewController.h"
 
 
 @interface ViewController ()
@@ -21,7 +22,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:@"facebook" forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    
+    [btn addTarget:self action:@selector(onClickQRCode:) forControlEvents:UIControlEventTouchUpInside];
     [btn setImage:[UIImage imageNamed:@"icon_facebook"] forState:UIControlStateNormal];
     [self.view addSubview:btn];
     
@@ -95,18 +96,27 @@
          make.top.left.bottom.and.right.equalTo(view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
          */
     }];
+
+}
+
+- (void)onClickQRCode:(UIButton *)btn{
     
+    ScanCodeViewController *can = [[ScanCodeViewController alloc] init];
     
-    
-    
-    
-    
-    
-    
-    
+    [self.navigationController pushViewController:can animated:YES];
     
     
 }
+
+
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

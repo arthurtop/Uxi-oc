@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5EB0F8DB1D636C81005B4060 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */; };
 		5EB0F8DD1D636C9B005B4060 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */; };
-		5EB0F8DF1D636D59005B4060 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB0F8DE1D636D59005B4060 /* ViewController.xib */; };
 		AE7AA0151123D76998F5AC6C /* libPods-Uxi-oc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */; };
 		CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */; };
 		CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8D01D5DB03100A5BDEB /* ViewController.m */; };
@@ -18,6 +17,9 @@
 		CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8F61D5DD42C00A5BDEB /* BaseTabBarController.m */; };
 		CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */; };
 		CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */; };
+		CD3830201D7E7311005375C4 /* ScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38301F1D7E7311005375C4 /* ScanCodeViewController.m */; };
+		CD3830291D7E7520005375C4 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3830281D7E7520005375C4 /* ShadowView.m */; };
+		CD38302B1D7E9125005375C4 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = CD38302A1D7E9125005375C4 /* line.png */; };
 		CD5F941B1D655A1C007BEC86 /* XLZVerificationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */; };
 		CD5F941C1D655A1C007BEC86 /* XLZ_RatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94161D655A1C007BEC86 /* XLZ_RatingBar.m */; };
 		CD5F941D1D655A1C007BEC86 /* XLZAVCapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94191D655A1C007BEC86 /* XLZAVCapController.m */; };
@@ -53,7 +55,6 @@
 /* Begin PBXFileReference section */
 		5EB0F8DA1D636C81005B4060 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5EB0F8DC1D636C9B005B4060 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		5EB0F8DE1D636D59005B4060 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		96C1BF82A06726F1510C888C /* libPods-Uxi-oc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Uxi-oc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uxi-oc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uxi-oc/Pods-Uxi-oc.debug.xcconfig"; sourceTree = "<group>"; };
 		CD25D8CD1D5DB03100A5BDEB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +71,11 @@
 		CD25D8FA1D5DD5B800A5BDEB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CD25D8FC1D5DD5CD00A5BDEB /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		CD25D8FD1D5DD5CD00A5BDEB /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CD38301E1D7E7311005375C4 /* ScanCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeViewController.h; sourceTree = "<group>"; };
+		CD38301F1D7E7311005375C4 /* ScanCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeViewController.m; sourceTree = "<group>"; };
+		CD3830271D7E7520005375C4 /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
+		CD3830281D7E7520005375C4 /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
+		CD38302A1D7E9125005375C4 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		CD5F94101D655A1C007BEC86 /* XLZVerificationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZVerificationClass.h; sourceTree = "<group>"; };
 		CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZVerificationClass.m; sourceTree = "<group>"; };
 		CD5F94151D655A1C007BEC86 /* XLZ_RatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZ_RatingBar.h; sourceTree = "<group>"; };
@@ -159,7 +165,6 @@
 				CD25D8CE1D5DB03100A5BDEB /* AppDelegate.m */,
 				CD25D8CF1D5DB03100A5BDEB /* ViewController.h */,
 				CD25D8D01D5DB03100A5BDEB /* ViewController.m */,
-				5EB0F8DE1D636D59005B4060 /* ViewController.xib */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -308,6 +313,18 @@
 			path = LogRegisterClass;
 			sourceTree = "<group>";
 		};
+		CD38301D1D7E72F7005375C4 /* XLZScanCode */ = {
+			isa = PBXGroup;
+			children = (
+				CD38302A1D7E9125005375C4 /* line.png */,
+				CD3830271D7E7520005375C4 /* ShadowView.h */,
+				CD3830281D7E7520005375C4 /* ShadowView.m */,
+				CD38301E1D7E7311005375C4 /* ScanCodeViewController.h */,
+				CD38301F1D7E7311005375C4 /* ScanCodeViewController.m */,
+			);
+			path = XLZScanCode;
+			sourceTree = "<group>";
+		};
 		CD5F940E1D655A1C007BEC86 /* CustomClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +356,7 @@
 		CD5F94131D655A1C007BEC86 /* SooLeTool */ = {
 			isa = PBXGroup;
 			children = (
+				CD38301D1D7E72F7005375C4 /* XLZScanCode */,
 				CDF79EF31D65B582003E8EAF /* XLZNetworkManager */,
 				CD5F94141D655A1C007BEC86 /* ScoreStarsClass */,
 				CD5F94171D655A1C007BEC86 /* XLZAVCaptureClass */,
@@ -564,8 +582,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB0F8DF1D636D59005B4060 /* ViewController.xib in Resources */,
 				5EB0F8DB1D636C81005B4060 /* LoginViewController.xib in Resources */,
+				CD38302B1D7E9125005375C4 /* line.png in Resources */,
 				CD9776E11D5D6F0600712D2F /* LaunchScreen.storyboard in Resources */,
 				CD9776DE1D5D6F0600712D2F /* Assets.xcassets in Resources */,
 				CD5F941E1D655A1C007BEC86 /* XLZAVCapController.xib in Resources */,
@@ -647,9 +665,11 @@
 				CD5F941B1D655A1C007BEC86 /* XLZVerificationClass.m in Sources */,
 				CD25D8E81D5DB03100A5BDEB /* ViewController.m in Sources */,
 				CD25D8F41D5DD40C00A5BDEB /* BaseNavController.m in Sources */,
+				CD3830291D7E7520005375C4 /* ShadowView.m in Sources */,
 				CD25D8F11D5DD3EA00A5BDEB /* BaseViewController.m in Sources */,
 				CDF79EF61D65B582003E8EAF /* NetworkHttpTools.m in Sources */,
 				CD8BCB541D6BE5F30000A137 /* XLZConstHeader.m in Sources */,
+				CD3830201D7E7311005375C4 /* ScanCodeViewController.m in Sources */,
 				CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */,
 				CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */,
 				CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */,

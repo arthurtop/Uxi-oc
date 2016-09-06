@@ -17,7 +17,62 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
+    /**  创建 tabbar
+     */
+    [self initWithAllBaseTabBarControll];
+    
+    
 }
+
+
+- (void)initWithAllBaseTabBarControll{
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+//- (UIViewController *)addTabbarCtl:(UIViewController *)viewCtl title:(NSString *)title imgName:(NSString *)imgName selImgName:(NSString *)selImgName{
+//    
+//    UIViewController *rootVC = [[UIViewController alloc]init];
+//    rootVC.title = title;
+//    
+//    UINavigationController *navCtl = [cla]
+//    
+//    
+//    
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
