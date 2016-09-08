@@ -20,6 +20,7 @@
 		CD3830201D7E7311005375C4 /* ScanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38301F1D7E7311005375C4 /* ScanCodeViewController.m */; };
 		CD3830291D7E7520005375C4 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3830281D7E7520005375C4 /* ShadowView.m */; };
 		CD38302B1D7E9125005375C4 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = CD38302A1D7E9125005375C4 /* line.png */; };
+		CD38302F1D7FB614005375C4 /* LZNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38302E1D7FB614005375C4 /* LZNumberButton.m */; };
 		CD5F941B1D655A1C007BEC86 /* XLZVerificationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */; };
 		CD5F941C1D655A1C007BEC86 /* XLZ_RatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94161D655A1C007BEC86 /* XLZ_RatingBar.m */; };
 		CD5F941D1D655A1C007BEC86 /* XLZAVCapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94191D655A1C007BEC86 /* XLZAVCapController.m */; };
@@ -76,6 +77,8 @@
 		CD3830271D7E7520005375C4 /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
 		CD3830281D7E7520005375C4 /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
 		CD38302A1D7E9125005375C4 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		CD38302D1D7FB614005375C4 /* LZNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNumberButton.h; sourceTree = "<group>"; };
+		CD38302E1D7FB614005375C4 /* LZNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNumberButton.m; sourceTree = "<group>"; };
 		CD5F94101D655A1C007BEC86 /* XLZVerificationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZVerificationClass.h; sourceTree = "<group>"; };
 		CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZVerificationClass.m; sourceTree = "<group>"; };
 		CD5F94151D655A1C007BEC86 /* XLZ_RatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZ_RatingBar.h; sourceTree = "<group>"; };
@@ -325,6 +328,15 @@
 			path = XLZScanCode;
 			sourceTree = "<group>";
 		};
+		CD38302C1D7FB5F7005375C4 /* LZNumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				CD38302D1D7FB614005375C4 /* LZNumberButton.h */,
+				CD38302E1D7FB614005375C4 /* LZNumberButton.m */,
+			);
+			path = LZNumberButton;
+			sourceTree = "<group>";
+		};
 		CD5F940E1D655A1C007BEC86 /* CustomClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +368,7 @@
 		CD5F94131D655A1C007BEC86 /* SooLeTool */ = {
 			isa = PBXGroup;
 			children = (
+				CD38302C1D7FB5F7005375C4 /* LZNumberButton */,
 				CD38301D1D7E72F7005375C4 /* XLZScanCode */,
 				CDF79EF31D65B582003E8EAF /* XLZNetworkManager */,
 				CD5F94141D655A1C007BEC86 /* ScoreStarsClass */,
@@ -668,6 +681,7 @@
 				CD3830291D7E7520005375C4 /* ShadowView.m in Sources */,
 				CD25D8F11D5DD3EA00A5BDEB /* BaseViewController.m in Sources */,
 				CDF79EF61D65B582003E8EAF /* NetworkHttpTools.m in Sources */,
+				CD38302F1D7FB614005375C4 /* LZNumberButton.m in Sources */,
 				CD8BCB541D6BE5F30000A137 /* XLZConstHeader.m in Sources */,
 				CD3830201D7E7311005375C4 /* ScanCodeViewController.m in Sources */,
 				CD25D8E71D5DB03100A5BDEB /* AppDelegate.m in Sources */,

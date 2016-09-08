@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ScanCodeViewController.h"
+#import "LZNumberButton.h"
 
 
 @interface ViewController ()
@@ -96,14 +97,32 @@
          make.top.left.bottom.and.right.equalTo(view).with.insets(UIEdgeInsetsMake(10, 10, 10, 10));
          */
     }];
+    
+    
+    [self example1];
+    
+}
 
+- (void)example1{
+    LZNumberButton *btn = [[LZNumberButton alloc]initWithFrame:CGRectMake(SCREEN_WIDTH/2-(SCREEN_WIDTH/2)/2, 100, SCREEN_WIDTH/2, 30)];
+    btn.shakeAnimation = YES;
+    btn.borderColor = [UIColor grayColor];
+    
+    //[btn setImageWithIncreaseIamge:@"icon_facebook" decreaseImage:@"info@3x"];
+    //[btn setTitleWithIncreaseTitle:@"加" decreaseTitle:@"减"];
+    btn.numberBlock = ^(NSString *num){
+        NSLog(@"---%@",num);
+    };
+    
+   
+    [self.view addSubview:btn];
 }
 
 - (void)onClickQRCode:(UIButton *)btn{
     
-    ScanCodeViewController *can = [[ScanCodeViewController alloc] init];
-    
-    [self.navigationController pushViewController:can animated:YES];
+//    ScanCodeViewController *can = [[ScanCodeViewController alloc] init];
+//    
+//    [self.navigationController pushViewController:can animated:YES];
     
     
 }
