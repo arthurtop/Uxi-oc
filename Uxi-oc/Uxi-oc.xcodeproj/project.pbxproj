@@ -21,6 +21,7 @@
 		CD3830291D7E7520005375C4 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3830281D7E7520005375C4 /* ShadowView.m */; };
 		CD38302B1D7E9125005375C4 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = CD38302A1D7E9125005375C4 /* line.png */; };
 		CD38302F1D7FB614005375C4 /* LZNumberButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD38302E1D7FB614005375C4 /* LZNumberButton.m */; };
+		CD3830331D814C4D005375C4 /* LZNativeXML.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3830321D814C4D005375C4 /* LZNativeXML.m */; };
 		CD5F941B1D655A1C007BEC86 /* XLZVerificationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */; };
 		CD5F941C1D655A1C007BEC86 /* XLZ_RatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94161D655A1C007BEC86 /* XLZ_RatingBar.m */; };
 		CD5F941D1D655A1C007BEC86 /* XLZAVCapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F94191D655A1C007BEC86 /* XLZAVCapController.m */; };
@@ -79,6 +80,8 @@
 		CD38302A1D7E9125005375C4 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		CD38302D1D7FB614005375C4 /* LZNumberButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNumberButton.h; sourceTree = "<group>"; };
 		CD38302E1D7FB614005375C4 /* LZNumberButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNumberButton.m; sourceTree = "<group>"; };
+		CD3830311D814C4D005375C4 /* LZNativeXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZNativeXML.h; sourceTree = "<group>"; };
+		CD3830321D814C4D005375C4 /* LZNativeXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZNativeXML.m; sourceTree = "<group>"; };
 		CD5F94101D655A1C007BEC86 /* XLZVerificationClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZVerificationClass.h; sourceTree = "<group>"; };
 		CD5F94111D655A1C007BEC86 /* XLZVerificationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLZVerificationClass.m; sourceTree = "<group>"; };
 		CD5F94151D655A1C007BEC86 /* XLZ_RatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLZ_RatingBar.h; sourceTree = "<group>"; };
@@ -337,6 +340,15 @@
 			path = LZNumberButton;
 			sourceTree = "<group>";
 		};
+		CD3830301D814BBF005375C4 /* LZNativeTools */ = {
+			isa = PBXGroup;
+			children = (
+				CD3830311D814C4D005375C4 /* LZNativeXML.h */,
+				CD3830321D814C4D005375C4 /* LZNativeXML.m */,
+			);
+			path = LZNativeTools;
+			sourceTree = "<group>";
+		};
 		CD5F940E1D655A1C007BEC86 /* CustomClass */ = {
 			isa = PBXGroup;
 			children = (
@@ -360,6 +372,7 @@
 		CD5F94121D655A1C007BEC86 /* ExternalClass */ = {
 			isa = PBXGroup;
 			children = (
+				CD3830301D814BBF005375C4 /* LZNativeTools */,
 				CD5F94131D655A1C007BEC86 /* SooLeTool */,
 			);
 			path = ExternalClass;
@@ -688,6 +701,7 @@
 				CD25D8FB1D5DD5B800A5BDEB /* LoginViewController.m in Sources */,
 				CD25D8F71D5DD42C00A5BDEB /* BaseTabBarController.m in Sources */,
 				CD5F941C1D655A1C007BEC86 /* XLZ_RatingBar.m in Sources */,
+				CD3830331D814C4D005375C4 /* LZNativeXML.m in Sources */,
 				CD5F941D1D655A1C007BEC86 /* XLZAVCapController.m in Sources */,
 				CD9776D31D5D6F0600712D2F /* main.m in Sources */,
 				CD25D8FE1D5DD5CD00A5BDEB /* RegisterViewController.m in Sources */,
@@ -782,7 +796,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -821,7 +835,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -834,6 +848,7 @@
 			baseConfigurationReference = ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
@@ -849,6 +864,7 @@
 			baseConfigurationReference = F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
