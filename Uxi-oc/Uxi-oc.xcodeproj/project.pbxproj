@@ -848,7 +848,6 @@
 			baseConfigurationReference = ABCE1DD6863CCCE8BFF4C485 /* Pods-Uxi-oc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
@@ -864,7 +863,6 @@
 			baseConfigurationReference = F476A32D1D946E8F9AEB702D /* Pods-Uxi-oc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Uxi-oc/Application/Uxi_Prefix.pch";
 				INFOPLIST_FILE = "Uxi-oc/Info.plist";
